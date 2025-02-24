@@ -46,7 +46,7 @@ I am a passionate software developer with expertise in building scalable, user-f
 2. Navigate to the project directory:
 
    ```bash
-   cd portfolio
+   cd my-portfolio
    ```
 
 3. Install dependencies:
