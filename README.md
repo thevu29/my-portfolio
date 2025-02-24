@@ -1,126 +1,73 @@
-# GitHub Portfolio
+# 📌 Portfolio
 
-### If you're struggling to create a portfolio website that looks professional, you don't have to search any further. You can use this GitHub Portfolio template to create your very own personalized portfolio using just your GitHub username! The website is designed to be user-friendly and easily customizable, which makes it an ideal solution for developers and freelancers alike.
+Welcome to my personal portfolio! This repository showcases my skills, projects, and experiences in web development and software engineering.
 
----
+## 📖 About Me
+I am a passionate software developer with expertise in building scalable, user-friendly applications. My portfolio demonstrates my ability to solve problems, write clean code, and continuously learn new technologies.
 
-# Demo :movie_camera:
+## 🚀 Features
+- Responsive Design: Optimized for all screen sizes (desktop, tablet, mobile).
+- Dynamic Content: Showcases projects with real-time updates.
+- Interactive UI: Smooth navigation and animations.
+- SEO Friendly: Enhanced for search engine visibility.
 
-![httpsgithub abusaid me](https://github.com/said7388/github-portfolio/assets/77630868/a331f996-1b4d-451a-941f-a15f5ae6de93)
-
-
-## View live preview [here](https://my-github-portfolio.netlify.app/)
-
----
-
-# Installation :arrow_down:
-
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
+## 📂 Project Structure
 ```
-node --version
-git --version
-```
-
-## <br />
-
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/github-portfolio.git
-
-cd github-portfolio
+├── public/          # Static files (e.g., images, fonts)
+├── src/
+│   ├── app/         # App Router (Next.js 14)
+│   ├── components/  # Reusable components
+│   ├── hooks/       # Custom hooks
+│   ├── styles/      # CSS/Sass styles
+│   └── utils/       # Utility functions
+├── .env             # Environment variables
+├── next.config.js   # Next.js configuration
+├── package.json     # Dependencies & scripts
+└── README.md        # Project documentation
 ```
 
-### Install packages from the root directory
+## 🛠️ Technologies Used
+- **Framework:** Next.js 14 (App Router)
+- **Frontend:** React, TypeScript, TailwindCSS
+- **Backend:** Node.js (Optional: API routes with Next.js)
+- **Deployment:** Vercel/Netlify (for live hosting)
+- **Tools:** Git, ESLint, Prettier, React Testing Library
 
-```bash
-npm install
-# or
-yarn install
-```
+## 📸 Screenshots
+![Homepage Screenshot](public/screenshot-homepage.png)
 
-Then, run the development server:
+## 📦 Installation
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+   ```bash
+   git clone https://github.com/thevu29/my-portfolio.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
----
+   ```bash
+   cd portfolio
+   ```
 
-# Usage :joystick:
+3. Install dependencies:
 
-If you want to use Google Analytics, Please create a new `.env` file from `.env.example` file and provide the value.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Eg:
+4. Start the development server:
 
-```env
-NEXT_PUBLIC_GTM = ""
-```
+   ```bash
+   npm run dev
+   ```
 
-### Now, you have to customize user data in the `data` [folder](https://github.com/said7388/developer-portfolio/tree/main/data).
+## 🌐 Live Demo
+Check out the live version: [Live Demo](https://my-portfolio-8bqg.vercel.app/)
 
-Eg:
-
-```javascript
-export const userData = {
-  githubUser: "said7388",
-  devUsername: "said7388",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  resume:
-    "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
-  skills: [
-    "React",
-    "NextJS",
-    "Redux",
-    "Express",
-    "NestJS",
-    "MySql",
-    "MongoDB",
-    "Postgres",
-    "Docker",
-    "AWS",
-  ],
-  timezone: "+6",
-};
-```
-
----
-
----
-
-# Packages Used :package:
-
-|   Used Package List   |
-| :-------------------: |
-|         next          |
-|  @next/third-parties  |
-|         axios         |
-|      react-icons      |
-| react-github-calendar |
-|         sass          |
-|      tailwindcss      |
-
----
-
-## Disclaimer
-
-In this repository, I have used some open source APIs. All credits go to the owners of those repositories.
+## 📬 Contact
+Feel free to reach out via:
+- Email: nthevu290803@gmail.com
+- LinkedIn: [LinkedIn](https://linkedin.com/in/thevu29)
+- GitHub: [GitHub](https://github.com/thevu29)
