@@ -6,6 +6,13 @@ import './css/card.scss';
 import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
+export const metadata = {
+  title: 'Nguyen The Vu',
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
