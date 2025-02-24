@@ -15,5 +15,16 @@ module.exports = {
       "github-profile-trophy.vercel.app",
     ],
     dangerouslyAllowSVG: true,
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.vercel.app",
+      },
+      {
+        protocol: "https",
+        hostname: "**.herokuapp.com",
+      },
+    ],
   },
 };
