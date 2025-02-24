@@ -1,13 +1,10 @@
+// @flow strict
 import { userData } from "@/data/user-data";
 import Image from "next/image";
 import GlowCard from "../helper/glow-card";
 import SectionTitle from "../helper/section-title";
 
 function GitStats() {
-  const profileDetailsUrl = `http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${userData.githubUser}&theme=algolia`;
-  const githubStatsUrl = `https://github-readme-stats.vercel.app/api?username=${userData.githubUser}&show_icons=true&include_all_commits=true&theme=algolia&hide_border=true`;
-  const githubStats2Url = `https://github-readme-stats.vercel.app/api?username=${userData.githubUser}&show_icons=true&include_all_commits=true&theme=algolia&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide=stars,commits,prs,issues,contribs`;
-
   return (
     <div
       id="stats"
@@ -20,11 +17,11 @@ function GitStats() {
           <GlowCard identifier="profile-details">
             <div className="bg-primary-bg">
               <Image
-                src={profileDetailsUrl}
+                src={`http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${userData.githubUser}&theme=algolia`}
                 width={1080}
                 height={520}
                 alt="github profile-details"
-                className="rounded-lg"
+                className="rounded-lg "
               />
             </div>
           </GlowCard>
@@ -33,7 +30,7 @@ function GitStats() {
         <>
           <GlowCard identifier="github-stats">
             <Image
-              src={githubStatsUrl}
+              src={`http://github-readme-stats.vercel.app/api?username=${userData.githubUser}&show_icons=true&include_all_commits=true&theme=algolia&hide_border=true`}
               width={1080}
               height={520}
               alt="github stats"
@@ -41,10 +38,10 @@ function GitStats() {
           </GlowCard>
           <GlowCard identifier="github-stats-2">
             <Image
-              src={githubStats2Url}
+              src={`http://github-readme-stats.vercel.app/api?username=${userData.githubUser}&show_icons=true&include_all_commits=true&theme=algolia&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide=stars,commits,prs,issues,contribs`}
               width={1080}
               height={520}
-              alt="github stats 2"
+              alt="github stats"
               className="rounded-lg"
             />
           </GlowCard>
