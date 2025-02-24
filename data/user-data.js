@@ -13,6 +13,7 @@ export const userData = {
     "React",
     "NextJS",
     "Redux",
+    "NodeJS",
     "Express",
     "Java",
     "Spring Boot",
@@ -20,6 +21,8 @@ export const userData = {
     "MongoDB",
     "Postgres",
     "Docker",
+    "Git",
+    "Postman",
   ],
   timezone: "+7",
 };
